@@ -1,8 +1,9 @@
 body{
     background-color: #50874D;
+    padding-top: 100px;
 }
 
-.container {
+.home {
     background-image: url(/tennis-court.PNG);
     background-repeat: no-repeat;
     background-size:cover;
@@ -28,10 +29,4 @@ p {
     align-items: center;
     margin-top: 100px;
     text-decoration: none;
-}
-
-
-
-.top {
-    margin-top: 200px;
 }
