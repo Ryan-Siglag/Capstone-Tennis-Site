@@ -4,7 +4,7 @@ body{
 }
 
 .home {
-    background: url(../images/tennis-court.PNG) #50874D;
+    background: url(images/tennis-court.PNG) #50874D;
     background-repeat: no-repeat;
     background-size:cover;
 }
