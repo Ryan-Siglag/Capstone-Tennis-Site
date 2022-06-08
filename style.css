@@ -4,7 +4,7 @@ body{
 }
 
 .home {
-    background-image: url(/tennis-court.PNG);
+    background-image: url(/images/tennis-court.PNG);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -14,7 +14,7 @@ body{
     opacity: 0.8;
 }
 
-h2, h3, h4, p {
+h1, h2, h3, h4, p {
     color: black;
 }
 
@@ -27,18 +27,34 @@ h4 {
     font-size: 20px;
 }
 
-p {
-    font-size: 35px;
+h5 {
+    font-size: 15px;
+}
+
+img {
+    width: 80%;
+}
+
+h5, p, td, th, li {
     color: white;
+}
+
+p, td, th {
+    font-size: 35px;
     text-align: center;
+}
+
+td, th {
+    padding: 10px;
+    max-width: 500px;
+}
+
+table, th, td {
+    border: 3px solid black;
 }
 
 ul p {
     text-align: start;
-}
-
-li {
-    color: white;
 }
 
 .home-btn{
@@ -50,9 +66,13 @@ li {
     text-decoration: none;
 }
 
+table, .back {
+    margin: auto;
+}
+
 .back {
     max-width: 125px;
     max-height: 75px;
-    margin: auto;
     margin-top: 200px;
+    margin-bottom: 25px;
 }
