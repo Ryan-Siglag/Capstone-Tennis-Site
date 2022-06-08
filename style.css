@@ -10,7 +10,7 @@ body{
 }
 
 .tp-ylw{
-    background-color: #CCFF00;
+    background-color: #ccff00;
     opacity: 0.8;
 }
 
@@ -29,10 +29,21 @@ h4 {
 
 h5 {
     font-size: 15px;
+    transition: opacity 0.5s;
+    visibility: hidden;
 }
 
 img {
     width: 80%;
+}
+
+.img-holder h5 {
+    opacity: 0%;
+    visibility: visible;
+}
+
+.img-holder:hover h5 {
+    opacity: 100%;
 }
 
 h5, p, td, th, li {
@@ -75,4 +86,12 @@ table, .back {
     max-height: 75px;
     margin-top: 200px;
     margin-bottom: 25px;
+}
+
+.home-btn:hover, .back:hover {
+    background-color: #ccff46;
+}
+
+.home-btn:active, .back:active {
+    background-color: #8fb300;
 }
